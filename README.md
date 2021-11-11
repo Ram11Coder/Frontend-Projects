@@ -1,2 +1,2 @@
 # Frontend-Projects
-Here i will upload rontend projects related projects
+Here i will upload frontend projects related projects
