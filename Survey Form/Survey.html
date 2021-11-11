@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Employee Survey form">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <form action="Thankyou.html">
+           
+           <div align="center">
+            <H2>Employee Interest Survey form</H2>
+            <label>Enter your name:</label>
+            <input type="text" name="Username" maxlength="35" size="35" required> 
+            <br>
+            <br>
+            <label>Enter your department:</label>
+            <input type="text" name="Dept" maxlength="35" size="35"  required> 
+            <br>
+            <br>
+            <label>Tell us a little about yourself:</label>
+            <textarea name="Comments" rows="5" cols="30" ></textarea>
+            <br>
+            <br>
+            <label>Do you excercise at home?</label>
+            <input type="radio" id="YES" name="yes" value="1">
+    <label for="YES">Yes</label>
+    <input type="radio" id="NO" name="No" value="2" >
+    <label for="NO">No</label>
+            <br>
+            <br>
+            <label>How do you like to read about your favorite topics?</label>
+            <br>
+            <br>
+            <input type="checkbox" id="Books" name="Favourite Book" >
+            <label for="Books">Books</label>
+            <input type="checkbox" id="Online Resources" name="Web surf" >
+            <label for="Online Resources">Online Resources</label>
+            <input type="checkbox" id="Phone apps" name="Phone apps" >
+            <label for="Phone apps">Phone apps</label>
+            <input type="checkbox" id="Magazines" name="Magazines" >
+            <label for="Magazines">Magazines</label>
+    
+    
+    <br>
+    <br>
+    <label for="Genre">What genre of movies do you like?</label>
+    <select id="Genre" name="Genre">
+        <option></option>
+    <option value="Comedy">Comedy</option>
+    <option value="Action">Action</option>
+    <option value="Romantic">Romantic</option>
+    <option value="Horror">Horror</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit form">
+
+        </div>
+    </form>
+    </body>
+</html>
